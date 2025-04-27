@@ -1,0 +1,89 @@
+/* My Bookings Page Styles */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #f8fafc;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    color: #4b5563;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #e5e7eb;
+}
+
+.table th {
+    background-color: #1e3a8a;
+    color: #fff;
+}
+
+.table td {
+    background-color: #ffffff;
+    color: #374151;
+}
+
+.table-responsive {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.table tr:hover {
+    background-color: #e0f7fa;
+    cursor: pointer;
+}
+
+.table .thead-light th {
+    background-color: #60a5fa;
+}
+
+.table .thead-light th:hover {
+    background-color: #3b82f6;
+    color: #fff;
+}
+
+.table td .badge {
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.table td .badge.car {
+    background-color: #34d399;
+    color: #fff;
+}
+
+.table td .badge.room {
+    background-color: #3b82f6;
+    color: #fff;
+}
+
+.table td .badge.payment {
+    background-color: #f59e0b;
+    color: #fff;
+}
+
+.alert {
+    background-color: #f0fdfa;
+    color: #0f766e;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-align: center;
+}

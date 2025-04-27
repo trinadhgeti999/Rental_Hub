@@ -1,0 +1,80 @@
+/* Car Booking Page Styles */
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #f0fdf4;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #065f46;
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.form-control {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #34d399;
+    box-shadow: 0 0 4px rgba(16, 185, 129, 0.6);
+}
+
+.alert-info {
+    background-color: #d1fae5;
+    color: #065f46;
+    border: 1px solid #34d399;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-success {
+    background-color: #10b981;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #059669;
+}
+
+.btn-secondary {
+    background-color: #6b7280;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #4b5563;
+}
+
+.alert-danger ul {
+    padding-left: 20px;
+    color: #dc2626;
+    font-weight: 500;
+}
