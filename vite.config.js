@@ -10,9 +10,8 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      // Polyfill the 'crypto' module
-      crypto: path.resolve(__dirname, 'node_modules/crypto-browserify')
-    }
+      crypto: path.resolve(__dirname, 'node_modules/crypto-browserify'),
+    },
   },
   plugins: [
     laravel({
@@ -23,4 +22,5 @@ export default defineConfig({
       refresh: true,
     }),
   ],
+  base: process.env.APP_URL || '/', // This ensures assets are served from the correct base URL
 });
