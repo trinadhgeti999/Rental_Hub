@@ -5,7 +5,7 @@ import path from 'path';
 export default defineConfig({
   server: {
     hmr: {
-      overlay: false,
+      overlay: true,
     },
   },
   resolve: {
@@ -18,6 +18,7 @@ export default defineConfig({
       input: [
         'resources/css/app.css',
         'resources/js/app.js',
+        
       ],
       refresh: true,
     }),
