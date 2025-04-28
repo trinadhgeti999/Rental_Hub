@@ -32,6 +32,9 @@ RUN composer install --optimize-autoloader --no-dev
 RUN chown -R www-data:www-data /var/www
 RUN chmod -R 775 /var/www/storage /var/www/bootstrap/cache
 
+# Debugging step: Check Node.js and NPM versions
+RUN echo "Checking Node.js and NPM versions..." && node -v && npm -v
+
 # Step 9: Install NPM dependencies and build assets
 RUN npm install && npm run build
 
