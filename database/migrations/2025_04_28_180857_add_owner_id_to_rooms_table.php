@@ -11,9 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('cars', function (Blueprint $table) {
-            $table->unsignedBigInteger('owner_id')->nullable()->after('user_id'); 
-            $table->foreign('owner_id')->references('id')->on('users')->onDelete('set null'); 
+        Schema::table('rooms', function (Blueprint $table) {
+            $table->unsignedBigInteger('owner_id')->nullable()->after('user_id'); // Place after user_id
+            $table->foreign('owner_id')->references('id')->on('users')->onDelete('set null'); // Use set null instead of cascade
         });
     }
 
@@ -22,7 +22,7 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('cars', function (Blueprint $table) {
+        Schema::table('rooms', function (Blueprint $table) {
             $table->dropForeign(['owner_id']);
             $table->dropColumn('owner_id');
         });
