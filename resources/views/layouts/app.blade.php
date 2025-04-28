@@ -15,13 +15,7 @@
         <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
         <link rel="stylesheet" href="{{ asset('css/room_create.css') }}">
         <link rel="stylesheet" href="{{ asset('css/room_index.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/room_edit.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/room_show.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/car_add.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/car_list.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/car_edit.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/car_add.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/welcome.css') }}">
+        
 
         <!-- logo -->
         

@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('css/car_add.css') }}">
+@endpush
+
 
 @section('content')
     <div class="container mt-4">
