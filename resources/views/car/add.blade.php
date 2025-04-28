@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="{{ asset('css/car_add.css') }}">
 @endpush
 
+
 @section('content')
     <div class="container mt-4">
         <h2 class="text-xl font-semibold text-gray-800 leading-tight">

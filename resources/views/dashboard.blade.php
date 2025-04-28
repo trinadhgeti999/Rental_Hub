@@ -5,6 +5,10 @@
     <script src="{{ asset('js/dashboard.js') }}"></script>
 @endsection
 
+@section('styles')
+    <link href="{{ asset('css/dashboard.css') }}" rel="stylesheet">
+@endsection
+
 @section('header')
     <h2 class="page-heading">Dashboard</h2>
 @endsection
